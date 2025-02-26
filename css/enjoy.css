@@ -1,0 +1,19 @@
+.enjoy{
+    width: 100%;
+    height: 167px;
+    
+    margin-top: 15px;
+
+    .enjoy__center{
+        width: 80%;
+        height: inherit;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+            height: 167px;
+            object-fit: cover;
+            border-radius: 16px;
+        }
+    }
+}

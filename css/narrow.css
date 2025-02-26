@@ -1,0 +1,79 @@
+.narrow{
+    width: 100%;
+    height: 416.35px;
+    margin-top: 15px;
+    
+
+    .narrow__center{
+        width: 80%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid lightgray;
+        margin: 0 auto;
+        border-radius: 16px;
+        padding: 10px 10px;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 1px;
+       
+
+        .narrow__center__item{
+            width: 24.9%;
+            height: 100%;
+            
+            padding: 10px;
+
+            .narrow__center__item__top{
+                width: 292.85px;
+                height: 57.46px;
+                margin-bottom: 5px;
+                
+
+                h4{
+                    font-family: var(--font-family);
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #23254e;
+                }
+
+                h6{
+                    font-family: var(--font-family);
+                    font-size: 11px;
+                    font-weight: normal;
+                    color: #81858b;
+                }
+            }
+            .narrow__center__item__center__1,.narrow__center__item__center__2{
+                width: 100%;
+                height: 140px;
+                img{
+                    width: 130px;
+                    height: 130px;
+                }
+            }
+            .narrow__center__item__bottom{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: row wrap;
+                a{
+                    font-family: var(--font-family);
+                    font-size: 12px;
+                   color: #19bfd3;
+                   display: block;
+                   text-align: center;
+                   margin-top: 3px;
+                }
+               
+                img{
+                    width: 18px;
+                    height: 18px;
+                   color: go;
+                }
+               
+
+            }
+        }
+    }
+}

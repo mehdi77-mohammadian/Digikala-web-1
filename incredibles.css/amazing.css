@@ -1,0 +1,263 @@
+.amazing{
+    width:100%;
+    height: 360.15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+
+    .amazing__center{
+        width: 1496px;
+        height: inherit;
+        background-color: crimson;
+        margin: 0 auto;
+        border-radius: 8px;
+        border: 1px solid lightgray;
+       
+
+        .amazing__center__top{
+            width: 1464px;
+            height: 64.6px;
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap;
+            column-gap: 5px;
+
+            img{
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+            }
+            h1{
+                font-family: var(--font-family);
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+
+        .amazing__center__bottom{
+            width: 1495px;
+            height: 280px;
+            
+            
+            
+            
+            .swiper {
+                width: 98%;
+                height: 100%;
+              }
+          
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+
+                a{
+                   
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    display: flex;
+                    align-items: center;
+
+                    .swiper-slide-amazing-item{
+                      width: 583px;
+                      height: 242.55px;
+                      display: flex;
+                      flex-flow: row wrap;
+                      align-items: center;
+                      
+
+                      .swiper-slide-amazing-item-top{
+                        width: 583px;
+                        height: 26.04px;
+                        display: flex;
+                        align-items: center;
+                        padding: 8px;
+
+                        img{
+                            display: block;
+                            width: 116px;
+                            height: 14px;
+                            
+                        }
+                      }
+                      .swiper-slide-amazing-item-right{
+                        width: 200px;
+                        height: 212.51px;
+                        display: flex;
+                        align-items: center;
+                        img{
+                            display: inline-block;
+                            width: 200px;
+                            height: 200px;
+
+                        }
+                      }
+                      .swiper-slide-amazing-item-left{
+                        width: 380px;
+                        height: 212.51px;
+                        position: relative;
+                     
+
+                        .swiper-slide-amazing-item-left-text{
+                            width: 380px;
+                            height: 52px;
+                            margin-top: 15px;
+                            display: flex;
+                            align-items: center;
+                            p{
+                                font-family: var(--font-family);
+                                font-size: 12px;
+                                color: #3f4064;
+                                font-weight: bold;
+                                text-align: right;
+                            }
+                        }
+
+                        .swiper-slide-amazing-item-left-star{
+                            width: 380px;
+                            height: 26.04px;
+                            display: flex;
+                            flex-flow: row wrap;
+                            flex-direction: row-reverse;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+
+                            p {
+                              font-family: var(--font-number);
+                              font-size: 12px;
+                              color: #3f4064;
+                              display: flex;
+                              flex-flow: row wrap;
+                              flex-direction: row-reverse;
+                              column-gap: 5px;
+                    
+                              img {
+                                display: inline-block;
+                                width: 16px;
+                                height: 16px;
+                                margin-top: 8px;
+                              }
+                        }
+
+                        .swiper-slide-amazing-item-left-color{
+                            width: 60.84px;
+                            height: 14.4px;
+                           display: flex;
+                           flex-flow: row wrap;
+                           align-items: center;
+                           column-gap: 5px;
+                          
+                           
+                           
+                           
+
+                            .swiper-slide-amazing-item-left-color-gray{
+                                width: 14px;
+                                height: 14px;
+                                border-radius: 50%;
+                                background-color: gray;
+                                
+                            }
+                            p{
+                                font-family: var(--font-family);
+                                font-size: 10px;
+                                color: #424750;
+                                font-weight: normal;
+                            }
+                        }
+
+                      }
+                      .swiper-slide-amazing-item-left-price1{
+                        width: 336.4px;
+                        height: 33.6px;
+
+                        left: 0;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row-reverse;
+                        margin-left: 4px;
+                        position: absolute;
+                        left: 0;
+                
+                        img {
+                          display: inline-block;
+                          width: 16px;
+                          height: 16px;
+                        }
+                
+                        p {
+                          font-family: var(--font-number);
+                          font-size: 16px;
+                          color: #3f4064;
+                        }
+                      }
+                      .swiper-slide-amazing-item-left-price2{
+                        width: 34px;
+                        height: 20px;
+                        background-color: crimson;
+                        padding: 0px 4px;
+                        border-radius: 8px;
+                        margin-top: 8px;
+                        
+                        p {
+                          font-family: var(--font-number);
+                          font-size: 12px;
+                          color: #fff;
+                        }
+                      }
+                      .swiper-slide-amazing-item-left-discount{
+                        width: 175.2px;
+                        height: 26.04px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        padding: 0px 0px 0px 5px;
+                        position: absolute;
+                        left: 0;
+                        margin: 10px 0px 0px 17px;
+                
+                        p {
+                          font-family: var(--font-number);
+                          font-size: 12px;
+                          color: #c0c2c5;
+                          text-decoration: line-through;
+                        }
+                      }
+                      .swiper-slide-amazing-item-left-time{
+                        width: 195px;
+                        height: 30.04px;
+                        margin: 15px 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                
+                        p {
+                          font-family: var(--font-number);
+                          font-size: 12px;
+                          color: #ef394e;
+                        }
+                      }
+                    }
+                }
+              }
+          
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+        }
+    }
+}
+}
